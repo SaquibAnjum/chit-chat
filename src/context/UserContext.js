@@ -28,7 +28,7 @@ export const UserProvider = ({ children }) => {
     const [mode, setmode]=useState("light");
     const [groupSelect, setGroupSelect] = useState(null);
 
-    const url="https://chit-chat-api-lilac.vercel.app"
+    const url="https://chateopia-backend.vercel.app"
 
     // const url="http://localhost:5000"
 

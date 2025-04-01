@@ -21,7 +21,7 @@ const Profile = () => {
 
     const fetchAllFriends = async () => {
         try {
-            const response = await fetch(`https://chit-chat-api-lilac.vercel.app/api/friend/all-friends/${user._id}`, {
+            const response = await fetch(`https://chateopia-backend.vercel.app/api/friend/all-friends/${user._id}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
